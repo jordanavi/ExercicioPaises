@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ranking Populacional dos Países</string>
+
+    <string name="popchina">Population: 1,354,040,000</string>
+    <string name="popindia">Population: 1,354,040,000</string>
+    <string name="popeua">Population: 1,354,040,000</string>
+    <string name="popindonesia">Population: 1,354,040,000</string>
+    <string name="popbrasil">Population: 1,354,040,000</string>
+    <string name="poppaquistao">Population: 1,354,040,000</string>
+    <string name="popnigeria">Population: 1,354,040,000</string>
+    <string name="popbangladesh">Population: 1,354,040,000</string>
+    <string name="poprussia">Population: 1,354,040,000</string>
+    <string name="popjapao">Population: 1,354,040,000</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="texto">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="titulo">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="bandeira">
+        <item name="android:layout_rowSpan">3</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">#000000</item>
+        <item name="android:padding">1dp</item>
+    </style>
+</resources>

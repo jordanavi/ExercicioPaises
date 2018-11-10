@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2">
+
+        <!--Pais 1 linha 0,1,2-->
+        <TextView
+            style="@style/titulo"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Rank: 1" />
+
+        <TextView
+            android:layout_row="1"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: China" />
+
+        <TextView
+            android:layout_row="2"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popchina" />
+
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:id="@+id/imgchina"
+            app:srcCompat="@drawable/bdchina" />
+
+        <!--Pais 2 linhas 3,4 e 5-->
+        <TextView
+            style="@style/titulo"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="Rank: 2" />
+
+        <TextView
+            android:layout_row="4"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: India" />
+
+        <TextView
+            android:layout_row="5"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popindia" />
+
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:id="@+id/imgindia"
+            app:srcCompat="@drawable/bdindia" />
+
+        <!--Pais 3 linhas 6,7 e 8-->
+        <TextView
+            style="@style/titulo"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="Rank: 3" />
+
+        <TextView
+            android:layout_row="7"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: EUA" />
+
+        <TextView
+            android:layout_row="8"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popeua" />
+
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:id="@+id/imgeua"
+            app:srcCompat="@drawable/bdeua" />
+
+        <!--Pais 4 linhas 9,10 e 11-->
+        <TextView
+            style="@style/titulo"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:text="Rank: 4" />
+
+        <TextView
+            android:layout_row="10"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Indonesia" />
+
+        <TextView
+            android:layout_row="11"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popindonesia" />
+
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:id="@+id/imgindonesia"
+            app:srcCompat="@drawable/bdindonesia" />
+
+        <!--Pais 5 linhas 12,13 e 14-->
+        <TextView
+            style="@style/titulo"
+            android:layout_row="12"
+            android:layout_column="0"
+            android:text="Rank: 5" />
+
+        <TextView
+            android:layout_row="13"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Indonesia" />
+
+        <TextView
+            android:layout_row="14"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popbrasil" />
+
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="12"
+            android:layout_column="1"
+            android:id="@+id/imgbrasil"
+            app:srcCompat="@drawable/bdbrasil" />
+
+        <!--Pais 6 linhas 15,16 e 17-->
+        <TextView
+            style="@style/titulo"
+            android:layout_row="15"
+            android:layout_column="0"
+            android:text="Rank: 6" />
+
+        <TextView
+            android:layout_row="16"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Paquistão" />
+
+        <TextView
+            android:layout_row="17"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/poppaquistao" />
+
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="15"
+            android:layout_column="1"
+            android:id="@+id/imgpaquistao"
+            app:srcCompat="@drawable/bdindonesia" />
+
+        <!-- Pais 7 linhas 18, 19 e 20-->
+        <TextView
+            android:layout_row="18"
+            android:layout_column="0"
+            style="@style/titulo"
+            android:text="Rank: 7" />
+
+        <TextView
+            android:layout_row="19"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Nigéria" />
+
+        <TextView
+            android:layout_row="20"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popnigeria" />
+
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="18"
+            android:layout_column="1"
+            android:id="@+id/imgnigeria"
+            app:srcCompat="@drawable/bdnigeria" />
+
+        <!-- Pais 8 linhas 21, 22 e 23-->
+        <TextView
+            android:layout_row="21"
+            android:layout_column="0"
+            style="@style/titulo"
+            android:text="Rank: 8" />
+
+        <TextView
+            android:layout_row="22"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="Country: Bangladesh" />
+
+        <TextView
+            android:layout_row="23"
+            android:layout_column="0"
+            style="@style/texto"
+            android:text="@string/popbangladesh" />
+
+        <ImageView
+            style="@style/bandeira"
+            android:layout_row="21"
+            android:layout_column="1"
+            android:id="@+id/imgbangladesh"
+            app:srcCompat="@drawable/bdbangladesh" />
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
